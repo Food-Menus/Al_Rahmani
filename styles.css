@@ -712,14 +712,14 @@ nav {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin: 10px;
   color: white;
 
 }
 
 .journey__card__bg {
-  padding: 3rem;
+  padding: 2rem;
   padding-top: 8rem;
   background-position: center center;
   background-size: cover;
