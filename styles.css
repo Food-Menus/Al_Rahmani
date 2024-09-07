@@ -83,7 +83,7 @@ body {
 }
 
 .header {
-  background-image: url("assets/header-bg\ \(1\).jpg");
+  background-image: url("assets/header-bg\ \(1\).png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #950709;
+  background:  #e57c00 ;
 }
 
 .nav__logo img {
@@ -136,7 +136,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
-  background-color:#950709;
+  background-color:#e57c00;
   transition: 0.5s;
   z-index: -1;
   transform: translateY(-100%);
@@ -177,7 +177,7 @@ nav {
 
 .header__content h2 {
   max-width: 400px;
-  background-color: #950709;
+  background:  #e57c00 ;
   margin-inline: auto;
   margin-bottom: 0rem;
   padding: rem 1rem;
@@ -185,9 +185,15 @@ nav {
   font-family: "Noto Kufi Arabic", sans-serif;
   border: 2px dashed rgb(255, 255, 255);
   text-align: center;
+  position: relative;
   border-radius: 30px;
   justify-self: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1),
+  0 0 50px rgb(248, 149, 0),
+  0 0 20px rgb(255, 183, 0);
+  
 }
+
 
 .header__content a {
   max-width: 400px;
@@ -213,12 +219,9 @@ nav {
 
 .header__content h1 span {
   font-size: 3rem;
-  text-shadow: 1px 1px var(--white);
-  color: #950709;
+  text-shadow: 4px 4px var(--text-dark);
+  color: #ffffff
 }
-
-
-
 
 
 

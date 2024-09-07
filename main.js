@@ -5,16 +5,7 @@ const menuBtnIcon = menuBtn.querySelector("i");
 fetch('Data_Home_Page.json')
   .then(response => response.json())
   .then(data => {
-    document.getElementById('offer_title_1').textContent = data.offer_title_1;
-    document.getElementById('offer_title_2').textContent = data.offer_title_2;
     document.getElementById('moving_line').textContent = data.moving_line;
-    document.getElementById('offer_1').textContent = data.offer_1;
-    document.getElementById('offer_content_1').textContent = data.offer_content_1;
-    document.getElementById('offer_2').textContent = data.offer_2;
-    document.getElementById('offer_content_2').textContent = data.offer_content_2;
-    document.getElementById('event_title_1').textContent = data.event_title_1;
-    document.getElementById('event_title_2').textContent = data.event_title_2;
-    document.getElementById('event_content').textContent = data.event_content;
     document.getElementById('about').textContent = data.about;
     document.getElementById('address').textContent = data.address;
     document.getElementById('mobile_phone_1').textContent = data.mobile_phone_1;
