@@ -7,9 +7,13 @@ fetch('Data_Home_Page.json')
   .then(data => {
     document.getElementById('moving_line').textContent = data.moving_line;
     document.getElementById('about').textContent = data.about;
-    document.getElementById('address').textContent = data.address;
+    document.getElementById('address1').textContent = data.address1;
+    document.getElementById('address2').textContent = data.address2;
+    document.getElementById('address3').textContent = data.address3;
     document.getElementById('mobile_phone_1').textContent = data.mobile_phone_1;
     document.getElementById('mobile_phone_2').textContent = data.mobile_phone_2;
+    document.getElementById('mobile_phone_3').textContent = data.mobile_phone_3;
+    document.getElementById('mobile_phone_4').textContent = data.mobile_phone_4;
   });
 
 

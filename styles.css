@@ -365,7 +365,7 @@ nav {
 .footer__content {
   margin-top: 1rem;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .footer__content p {
@@ -399,7 +399,7 @@ nav {
 }
 
 .footer__socials a {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: var(--white);
 }
 
