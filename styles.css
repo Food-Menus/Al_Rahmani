@@ -374,6 +374,12 @@ nav {
   line-height: 1.75rem;
 }
 
+
+.footer__content h2 {
+  margin: 0.5rem;
+  color: var(--white);
+}
+
 .footer__links {
   list-style: none;
   display: grid;

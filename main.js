@@ -10,6 +10,10 @@ fetch('Data_Home_Page.json')
     document.getElementById('address1').textContent = data.address1;
     document.getElementById('address2').textContent = data.address2;
     document.getElementById('address3').textContent = data.address3;
+    document.getElementById('address4').textContent = data.address4;
+    document.getElementById('address5').textContent = data.address5;
+    document.getElementById('address6').textContent = data.address6;
+    document.getElementById('address7').textContent = data.address7;
     document.getElementById('mobile_phone_1').textContent = data.mobile_phone_1;
     document.getElementById('mobile_phone_2').textContent = data.mobile_phone_2;
     document.getElementById('mobile_phone_3').textContent = data.mobile_phone_3;
