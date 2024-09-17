@@ -237,7 +237,7 @@ nav {
   0 0 20px rgb(255, 183, 0);
 }
 
-#messageBox p {
+#messageBox h3 {
   background-color: #ffffff;
   color: #000000;
   justify-self: center;
@@ -245,7 +245,7 @@ nav {
   font-size: 22px;
 }
 
-#messageBox h3 {
+#messageBox p {
   background-color: #ffffff;
   color: #000000;
   justify-self: center;
