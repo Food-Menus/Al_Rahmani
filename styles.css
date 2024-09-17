@@ -163,6 +163,7 @@ nav {
 
 
 .header__container {
+  width: 100%;
   display: grid;
   gap: 2rem;
   overflow: hidden;
@@ -222,8 +223,10 @@ nav {
 
 #messageBox {
   background-color: #ffffff;
+  color: #000000;
   border: 1px solid #000000;
   padding: 15px;
+  font-size: 22px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -234,6 +237,7 @@ nav {
 }
 
 #messageBox p {
+  background-color: #ffffff;
   color: #000000;
   justify-self: center;
   text-align: center;
@@ -241,6 +245,7 @@ nav {
 }
 
 #messageBox h3 {
+  background-color: #ffffff;
   color: #000000;
   justify-self: center;
   text-align: center;
@@ -248,6 +253,9 @@ nav {
 }
 
 .show {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 22px;
   display: block;
   width: 350px;
   height: 300px;
