@@ -5,7 +5,6 @@ const menuBtnIcon = menuBtn.querySelector("i");
 fetch('Data_Home_Page.json')
   .then(response => response.json())
   .then(data => {
-    document.getElementById('moving_line').textContent = data.moving_line;
     document.getElementById('about').textContent = data.about;
     document.getElementById('address1').textContent = data.address1;
     document.getElementById('address2').textContent = data.address2;
@@ -17,7 +16,13 @@ fetch('Data_Home_Page.json')
     document.getElementById('mobile_phone_1').textContent = data.mobile_phone_1;
   });
 
-
+  const button = document.getElementById('myButton');
+  const messageBox = document.getElementById('messageBox');
+  
+  button.addEventListener('click', () => {
+    messageBox.classList.toggle('hidden');
+    messageBox.classList.toggle('show');
+  });
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
@@ -60,13 +65,7 @@ ScrollReveal().reveal(".event__content", {
 });
 
 
-const button = document.getElementById('myButton');
-const messageBox = document.getElementById('messageBox');
 
-button.addEventListener('click', () => {
-  messageBox.classList.toggle('hidden');
-  messageBox.classList.toggle('show');
-});
 
 
 
