@@ -17,13 +17,7 @@ fetch('Data_Home_Page.json')
     document.getElementById('mobile_phone_1').textContent = data.mobile_phone_1;
   });
 
-  const button = document.getElementById('myButton');
-  const messageBox = document.getElementById('messageBox');
-  
-  button.addEventListener('click', () => {
-    messageBox.classList.toggle('hidden');
-    messageBox.classList.toggle('show');
-  });
+
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
@@ -66,7 +60,13 @@ ScrollReveal().reveal(".event__content", {
 });
 
 
+const button = document.getElementById('myButton');
+const messageBox = document.getElementById('messageBox');
 
+button.addEventListener('click', () => {
+  messageBox.classList.toggle('hidden');
+  messageBox.classList.toggle('show');
+});
 
 
 

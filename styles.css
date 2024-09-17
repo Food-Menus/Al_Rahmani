@@ -68,10 +68,11 @@ a {
   transition: 0.3s;
 }
 
-marquee {
+/* marquee {
+  width: 100%;
   font-size: 22px;
   color: white;
-}
+} */
 
 html,
 body {
@@ -163,7 +164,7 @@ nav {
 
 
 .header__container {
-  width: 100%;
+  width: 100vh;
   display: grid;
   gap: 2rem;
   overflow: hidden;
