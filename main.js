@@ -15,11 +15,15 @@ fetch('Data_Home_Page.json')
     document.getElementById('address6').textContent = data.address6;
     document.getElementById('address7').textContent = data.address7;
     document.getElementById('mobile_phone_1').textContent = data.mobile_phone_1;
-    document.getElementById('mobile_phone_2').textContent = data.mobile_phone_2;
-    document.getElementById('mobile_phone_3').textContent = data.mobile_phone_3;
-    document.getElementById('mobile_phone_4').textContent = data.mobile_phone_4;
   });
 
+  const button = document.getElementById('myButton');
+  const messageBox = document.getElementById('messageBox');
+  
+  button.addEventListener('click', () => {
+    messageBox.classList.toggle('hidden');
+    messageBox.classList.toggle('show');
+  });
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");

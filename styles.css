@@ -6,7 +6,7 @@
   --tertiary-color: #df1c1c;
   --text-dark: #212529;
   --white: #ffffff;
-  --max-width: 1200px;
+  --max-width: 100%;
   --header-font-1: "Alfa Slab One", serif;
   --header-font-2: "Bebas Neue", sans-serif;
 }
@@ -69,7 +69,7 @@ a {
 }
 
 marquee {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
 }
 
@@ -170,18 +170,18 @@ nav {
 }
 
 .header__image img {
-  max-width: 320px;
+  max-width: 270px;
   margin-inline: auto;
   margin-top: 50px;
 }
 
 .header__content h2 {
-  max-width: 400px;
+  max-width: 340px;
   background:  #e57c00 ;
   margin-inline: auto;
   margin-bottom: 0rem;
   padding: rem 1rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: "Noto Kufi Arabic", sans-serif;
   border: 2px dashed rgb(255, 255, 255);
   text-align: center;
@@ -189,11 +189,73 @@ nav {
   border-radius: 30px;
   justify-self: center;
   box-shadow: 0 0 10px rgba(255, 255, 255, 1),
-  0 0 50px rgb(248, 149, 0),
+  0 0 30px rgb(248, 149, 0),
   0 0 20px rgb(255, 183, 0);
   
 }
 
+.header__content h5 {
+  max-width: 200px;
+  background:  #ffffff ;
+  color: #e57c00;
+  margin-inline: auto;
+  margin-bottom: 0rem;
+  padding: rem 1rem;
+  font-size: 22px;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  border: 2px dashed rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  border-radius: 30px;
+  justify-self: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1),
+  0 0 20px rgb(248, 149, 0),
+  0 0 20px rgb(255, 183, 0);
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  transform: translateY(-50px); /* تحريك العنصر لأعلى قليلاً قبل الظهور */
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); /* منحنى بيزي مخصص */
+}
+
+#messageBox {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1),
+  0 0 20px rgb(255, 255, 255),
+  0 0 20px rgb(255, 183, 0);
+}
+
+#messageBox p {
+  color: #000000;
+  justify-self: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+#messageBox h3 {
+  color: #000000;
+  justify-self: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.show {
+  display: block;
+  width: 350px;
+  height: 300px;
+  border-radius: 30px;
+  opacity: 0.9;
+  transform: translateY(0);
+  animation-duration: 1s; /* تغيير مدة التحريك */
+}
 
 .header__content a {
   max-width: 400px;
