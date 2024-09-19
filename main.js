@@ -5,6 +5,7 @@ const menuBtnIcon = menuBtn.querySelector("i");
 fetch('Data_Home_Page.json')
   .then(response => response.json())
   .then(data => {
+    document.getElementById('moving_line').textContent = data.moving_line;
     document.getElementById('about').textContent = data.about;
     document.getElementById('address1').textContent = data.address1;
     document.getElementById('address2').textContent = data.address2;

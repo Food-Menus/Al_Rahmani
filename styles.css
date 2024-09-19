@@ -68,11 +68,6 @@ a {
   transition: 0.3s;
 }
 
-/* marquee {
-  width: 100%;
-  font-size: 22px;
-  color: white;
-} */
 
 html,
 body {
@@ -159,9 +154,12 @@ nav {
 }
 
 
-
-
-
+.marqueeo{
+  font-size: 22px;
+  color: #ffffff;
+  width: 98%;
+  margin-inline: auto;
+}
 
 .header__container {
   width: 100vh;
