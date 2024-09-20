@@ -250,6 +250,13 @@ nav {
   text-align: center;
   font-size: 25px;
 }
+.phonesnum{
+  background-color: #ffffff;
+  color: #000000;
+  justify-self: center;
+  text-align: center;
+  font-size: 25px;
+}
 
 .show {
   background-color: #ffffff;
