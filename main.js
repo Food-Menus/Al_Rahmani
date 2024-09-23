@@ -49,6 +49,18 @@ ScrollReveal().reveal(".header__content h1", {
   delay: 1000,
 });
 
+ScrollReveal().reveal(".myButton", {
+  ...scrollRevealOption,
+  delay: 800,
+});
+
+
+ScrollReveal().reveal(".icon-1", {
+  ...scrollRevealOption,
+  origin: "left",
+  delay: 2000,
+});
+
 ScrollReveal().reveal(".order__card", {
   ...scrollRevealOption,
   interval: 500,
