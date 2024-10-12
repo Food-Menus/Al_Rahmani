@@ -108,6 +108,12 @@ fetch('Data_Menu_Page.json')
     document.getElementById('helw_prise_3').textContent = data.helw_prise_3;
     document.getElementById('helw_type_4').textContent = data.helw_type_4;
     document.getElementById('helw_prise_4').textContent = data.helw_prise_4;
+    document.getElementById('helw_type_5').textContent = data.helw_type_5;
+    document.getElementById('helw_prise_5').textContent = data.helw_prise_5;
+    document.getElementById('helw_type_6').textContent = data.helw_type_6;
+    document.getElementById('helw_prise_6').textContent = data.helw_prise_6;
+    document.getElementById('helw_type_7').textContent = data.helw_type_7;
+    document.getElementById('helw_prise_7').textContent = data.helw_prise_7;
 
     document.getElementById('Additions_type_1').textContent = data.Additions_type_1;
     document.getElementById('Additions_prise_1').textContent = data.Additions_prise_1;
