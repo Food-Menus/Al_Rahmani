@@ -654,16 +654,16 @@ nav {
   padding: 1rem 0.3rem;
 }
 
-.destination__details div {
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
+
 
 .destination__details h3 {
   font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.destination__details h6 {
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-light);
 }
@@ -688,6 +688,8 @@ nav {
   color: var(--text-dark);
   transform: rotateY(180deg);
 }
+
+
 
 
 
@@ -908,3 +910,25 @@ nav {
 .kkk{
   width: px200;
 }
+
+
+
+
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.item h2 {
+  margin: 0;
+}
+
+.item p {
+  margin: 0;
+}
+
+
+
